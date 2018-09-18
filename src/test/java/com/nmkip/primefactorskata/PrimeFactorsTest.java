@@ -35,4 +35,9 @@ public class PrimeFactorsTest {
     public void of_8_is_2_2_2() {
         assertThat(PrimeFactors.of(8), is(Arrays.asList(2, 2, 2)));
     }
+
+    @Test
+    public void of_9_is_3_3() {
+        assertThat(PrimeFactors.of(9), is(Arrays.asList(3, 3)));
+    }
 }
