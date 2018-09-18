@@ -25,4 +25,9 @@ public class PrimeFactorsTest {
     public void of_3_is3() {
         assertThat(PrimeFactors.of(3), is(Arrays.asList(3)));
     }
+
+    @Test
+    public void of_4_is2_2() {
+        assertThat(PrimeFactors.of(4), is(Arrays.asList(2, 2)));
+    }
 }
