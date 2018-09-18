@@ -30,4 +30,9 @@ public class PrimeFactorsTest {
     public void of_4_is2_2() {
         assertThat(PrimeFactors.of(4), is(Arrays.asList(2, 2)));
     }
+
+    @Test
+    public void of_8_is_2_2_2() {
+        assertThat(PrimeFactors.of(8), is(Arrays.asList(2, 2, 2)));
+    }
 }
