@@ -40,4 +40,9 @@ public class PrimeFactorsTest {
     public void of_9_is_3_3() {
         assertThat(PrimeFactors.of(9), is(Arrays.asList(3, 3)));
     }
+
+    @Test
+    public void of_acceptanceTest() {
+        assertThat(PrimeFactors.of(2 * 3 * 5 * 7 * 7 * 7 * 11 * 19), is(Arrays.asList(2, 3, 5, 7, 7, 7, 11, 19)));
+    }
 }
