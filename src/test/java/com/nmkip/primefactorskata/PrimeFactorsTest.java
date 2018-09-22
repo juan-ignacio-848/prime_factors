@@ -43,4 +43,9 @@ public class PrimeFactorsTest {
     public void should_return_list_2_2_2_when_n_is_eight() {
         assertThat(primeFactors.of(8), is(Arrays.asList(2, 2, 2)));
     }
+
+    @Test
+    public void should_return_list_3_3_when_n_is_nine() {
+        assertThat(primeFactors.of(9), is(Arrays.asList(3, 3)));
+    }
 }
