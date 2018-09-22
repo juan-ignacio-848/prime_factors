@@ -15,7 +15,7 @@ public class PrimeFactorsTest {
     private PrimeFactors primeFactors;
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
         primeFactors = new PrimeFactors();
     }
 
