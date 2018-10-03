@@ -32,4 +32,10 @@ public class PrimeFactorsTest {
     public void of_3_is_list_3() {
         assertThat(primeFactors.of(3), is(Arrays.asList(3)));
     }
+
+    @Test
+    public void of_5_is_list_5() {
+        assertThat(primeFactors.of(5), is(Arrays.asList(5)));
+    }
+
 }
