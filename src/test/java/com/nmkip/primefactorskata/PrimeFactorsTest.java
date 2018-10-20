@@ -42,4 +42,19 @@ public class PrimeFactorsTest {
     public void of_5_returns_list_5() {
         assertThat(primeFactors.of(5)).isEqualTo(Arrays.asList(5));
     }
+
+    @Test
+    public void of_6_returns_list_2_3() {
+        assertThat(primeFactors.of(6)).isEqualTo(Arrays.asList(2, 3));
+    }
+
+    @Test
+    public void of_8_returns_list_2_2_2() {
+        assertThat(primeFactors.of(8)).isEqualTo(Arrays.asList(2, 2, 2));
+    }
+
+    @Test
+    public void of_9_returns_list_3_3() {
+        assertThat(primeFactors.of(9)).isEqualTo(Arrays.asList(3, 3));
+    }
 }
