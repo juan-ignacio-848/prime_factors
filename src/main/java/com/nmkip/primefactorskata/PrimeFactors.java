@@ -12,8 +12,8 @@ public class PrimeFactors {
             n /= 2;
         }
 
-        if(n == 3) {
-            factors.add(3);
+        if(n > 1) {
+            factors.add(n);
         }
 
         return factors;
