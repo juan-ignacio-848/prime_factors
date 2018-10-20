@@ -57,4 +57,9 @@ public class PrimeFactorsTest {
     public void of_9_returns_list_3_3() {
         assertThat(primeFactors.of(9)).isEqualTo(Arrays.asList(3, 3));
     }
+
+    @Test
+    public void acceptanceTest() {
+        assertThat(primeFactors.of(2 * 2 * 2 * 3 * 5 * 11)).isEqualTo(Arrays.asList(2, 2, 2, 3, 5, 11));
+    }
 }
