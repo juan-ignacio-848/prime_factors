@@ -27,4 +27,9 @@ public class PrimeFactorsTest {
         assertThat(primeFactors.of(2)).isEqualTo(Arrays.asList(2));
     }
 
+
+    @Test
+    public void of_3_returns_list_3() {
+        assertThat(primeFactors.of(3)).isEqualTo(Arrays.asList(3));
+    }
 }
